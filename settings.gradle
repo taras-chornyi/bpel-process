@@ -1,0 +1,8 @@
+rootProject.name = 'bpel-process'
+
+include ':bpel-process-example'
+findProject(':bpel-process-example')?.name = 'bpel-process-example'
+
+include ':bpel-connectors'
+findProject(':bpel-connectros')?.name = 'bpel-connectors'
+

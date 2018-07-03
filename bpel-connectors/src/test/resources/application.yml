@@ -1,0 +1,13 @@
+# ===================================================================
+# Connectors specific properties
+# ===================================================================
+
+connectors:
+    retry:
+        skipRetry: false
+        attempts:
+            count: 10
+            interval: 2000
+    webservice:
+        packages: com.taras.chornyi.bpel.connectors.domain
+        bpelUrl: http://localhost:8080/ode/processes/BusinessProcess

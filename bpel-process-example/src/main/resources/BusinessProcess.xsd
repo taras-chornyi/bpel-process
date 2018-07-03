@@ -7,8 +7,9 @@
 	<element name="businessProcess">
 		<complexType>
 			<sequence>
+				<element name="id_process" type="string" />
 				<element name="name" type="ev:name_identifier" />
-				<element name="timestamp" type="dateTime" />
+				<element name="timestamp" type="long" />
 				<element name="sourceAddress" type="ev:ipv4_ipv6" />
 				<element name="info" type="string" minOccurs="0" />
 				<element name="attributes" minOccurs="0">

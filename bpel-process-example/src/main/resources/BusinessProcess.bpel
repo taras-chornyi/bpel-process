@@ -9,7 +9,7 @@
 		importType="http://schemas.xmlsoap.org/wsdl/" />
 
 	<!-- ================================================================= -->
-	<!-- PARTNERLINKS -->
+	<!-- PARTNER LINKS -->
 	<!-- List of services participating in this BPEL process -->
 	<!-- ================================================================= -->
 
@@ -67,7 +67,7 @@
 					<bpel:copy>
 						<bpel:from>
 							<bpel:literal xml:space="preserve">
-	                		<ev:pdmBusinessProcess
+	                		<ev:businessProcess
 								xmlns:ev="https://github.com/taras-chornyi/bpel-process" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 							  <ev:name>Business Process</ev:name>
 							  <ev:timestamp>2001-12-31T12:00:00</ev:timestamp>
@@ -77,7 +77,7 @@
 							  	<ev:attribute name="id_bpel_process" value="1" />
 							  	<ev:attribute name="input" value="2" />
 							  </ev:attributes>
-						</ev:pdmBusinessProcess>
+						</ev:businessProcess>
 					</bpel:literal>
 						</bpel:from>
 						<bpel:to variable="output" part="payload"></bpel:to>
@@ -111,13 +111,13 @@
 						<bpel:copy>
 							<bpel:from>
 								<bpel:literal xml:space="preserve">
-	                				<ev:pdmBusinessProcess xmlns:ev="https://github.com/taras-chornyi/bpel-process">
+	                				<ev:businessProcess xmlns:ev="https://github.com/taras-chornyi/bpel-process">
 									  <ev:name>name</ev:name>
 									  <ev:timestamp>2001-12-31T12:00:00</ev:timestamp>
 									  <ev:sourceAddress>token</ev:sourceAddress>
 									  <ev:info>info</ev:info>
 									  <ev:attributes/>
-									</ev:pdmBusinessProcess>
+									</ev:businessProcess>
 								</bpel:literal>
 							</bpel:from>
 							<bpel:to variable="output" part="payload"></bpel:to>

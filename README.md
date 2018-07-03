@@ -9,6 +9,7 @@ OASIS standardized the language in April of 2007 and it is now known as formally
 ## Why do we need BPEL?
 
 So, why was the new language created? Why do we even need BPEL? BPEL provides:
+
     - Support for web services relationships and interactions that are engaged in both short- and long-term business transactions. BPEL provides the foundation for automating business processes.
     - Message exchange correlation for long running message exchanges, not just over a minute or two, but over days, weeks or months. BPEL provides industry-standard support for processes that require very long time periods to complete.
     - Implementation for the parallel processing of activities, which permits the execution of non-dependent actions concurrently to improve process performance.
@@ -19,6 +20,7 @@ So, why was the new language created? Why do we even need BPEL? BPEL provides:
 ## BPEL Benefits
 
 Some of the benefits of using BPEL include:
+
     - BPEL is SOA (Service Oriented Architecture) compliant, meaning that it is based on web services, which are the set of protocols by which such services can be published, discovered and used in a technology neutral, standard form.
     - BPEL allows us to leverage existing standards and skill sets, all in a common language.
     - BPEL deployed orchestrations are web services themselves, and therefore fit naturally into the existing Web Services stack.

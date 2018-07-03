@@ -3,7 +3,7 @@ apply plugin: 'distribution'
 group = 'com.chornyi.bpel'
 version = '0.0.1'
 
-description = "BusinessProcess"
+description = "Business Process Example"
 
 distributions {
     main {

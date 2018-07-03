@@ -1,0 +1,23 @@
+apply plugin: 'distribution'
+
+group = 'com.chornyi.bpel'
+version = '0.0.1'
+
+description = "BusinessProcess"
+
+distributions {
+    main {
+        contents {
+            from { 'src/main/resources' }
+        }
+    }
+}
+
+distZip {
+    eachFile { file ->
+        String path = file.relativePath
+        file.setPath(path.substring(path.indexOf("/") + 1, path.length()))
+    }
+}
+
+tasks.distTar.enabled = false
